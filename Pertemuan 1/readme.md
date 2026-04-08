@@ -21,15 +21,16 @@ Setelah fase sedang:
 1. Gambarkan rangkaian schematic 5 LED running
 Rangkaian terdiri dari beberapa LED (pada praktikum digunakan 6 LED tapi untuk soal ini memakai 5 LED sesuai intruksi) yang masing-masing dihubungkan ke pin digital Arduino, yaitu pin 2 sampai pin 6. Setiap LED disusun seri dengan resistor 1k Ohm untuk membatasi arus. Kaki anoda LED terhubung ke pin digital Arduino, sedangkan kaki katoda dihubungkan ke GND.
 
-![alt text](<percobaan perulangan.jpeg.png>)
+![alt text](<percobaan perulangan.png>)
 
-3. Jelaskan bagaimana program membuat efek LED berjalan dari kiri ke kanan?
+2. Jelaskan bagaimana program membuat efek LED berjalan dari kiri ke kanan?
 Efek pergerakan LED dari kiri ke kanan dihasilkan menggunakan perulangan for dengan nilai awal pin kecil menuju pin yang lebih besar (2 sampai 7). Pada setiap iterasi, LED pada pin tertentu dinyalakan, kemudian diberikan jeda menggunakan delay, lalu dimatikan sebelum berpindah ke LED berikutnya. Proses ini menciptakan efek visual seolah-olah cahaya bergerak secara berurutan ke arah kanan.
 
-4. Jelaskan bagaimana program membuat LED kembali dari kanan ke kiri?
+3. Jelaskan bagaimana program membuat LED kembali dari kanan ke kiri?
 Untuk menghasilkan gerakan sebaliknya, digunakan perulangan for kedua dengan arah berlawanan, yaitu dari pin 7 menuju pin 2. Nilai pin dikurangi setiap iterasi sehingga LED menyala secara berurutan dari kanan ke kiri. Kombinasi kedua perulangan ini menghasilkan efek bolak-balik (running light).
 
-5. Program 3 LED kanan dan kiri bergantian
+4. Program 3 LED kanan dan kiri bergantian
+
  ![alt text](<penjelasan kode1.6.png>)
 
 Program ini tidak lagi memakai perulangan running, tapi diganti pola kelompok LED
