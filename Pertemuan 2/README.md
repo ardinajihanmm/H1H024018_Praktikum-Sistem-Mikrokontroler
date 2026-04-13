@@ -7,7 +7,7 @@
 ### 2.5.4 Pertanyaan Praktikum 2A
 #### 1. Gambarkan rangkaian schematic yang digunakan pada percobaan!
 
-![Rangkaian Arduino Uno dengan 7-segment display](rangkaian2A.png)
+![Rangkaian Arduino](Dokumentasi Percobaan1B/rangkaian1B.png)
 
 ---
 #### 2. Apa yang terjadi jika nilai `num` lebih dari 15?
@@ -136,7 +136,7 @@ void displayHex(int num) {
 ### 2.6.4 Pertanyaan Praktikum 1B
 #### 1. Gambarkan rangkaian schematic yang digunakan pada percobaan!
 
-![Rangkaian Arduino Uno dengan 7-segment display](rangkaian1B.png)
+![Rangkaian Arduino](Dokumentasi Percobaan 2A/rangkaian2A.png)
 
 #### 2. Mengapa push button menggunakan mode `INPUT_PULLUP`? Apa keuntungannya?
 **Alasan penggunaan `INPUT_PULLUP`:**
