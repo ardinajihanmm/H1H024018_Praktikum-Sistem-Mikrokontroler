@@ -6,7 +6,8 @@
 ## Percobaan 2A – Seven Segment Counter
 ### 2.5.4 Pertanyaan Praktikum 2A
 #### 1. Gambarkan rangkaian schematic yang digunakan pada percobaan!
- ![alt text](<rangkaian2A.png>)
+
+![Rangkaian Arduino Uno dengan 7-segment display](rangkaian2A.png)
 
 ---
 #### 2. Apa yang terjadi jika nilai `num` lebih dari 15?
@@ -134,7 +135,8 @@ void displayHex(int num) {
 ## Percobaan 1B – Kontrol Counter dengan Push Button
 ### 2.6.4 Pertanyaan Praktikum 1B
 #### 1. Gambarkan rangkaian schematic yang digunakan pada percobaan!
- ![alt text](<rangkaian1B.png>)
+
+![Rangkaian Arduino Uno dengan 7-segment display](rangkaian1B.png)
 
 #### 2. Mengapa push button menggunakan mode `INPUT_PULLUP`? Apa keuntungannya?
 **Alasan penggunaan `INPUT_PULLUP`:**
