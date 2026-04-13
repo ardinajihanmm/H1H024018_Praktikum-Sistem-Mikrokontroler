@@ -373,6 +373,7 @@ Pada praktikum ini (Common Anode)
 - Untuk menampilkan angka `0`: segmen a, b, c, d, e, f harus menyala (LOW) dan g harus mati (HIGH).
 - Pola ini disimpan dalam array `hexPatterns` sebagai `{1,1,1,1,1,1,0}` di mana nilai 1 berarti segmen aktif (dan akan dikonversi ke LOW oleh fungsi `displayHex()`).
 ---
+```
 #### 3. Jelaskan bagaimana sistem counter bekerja pada program tersebut!
 Counter Percobaan 2A (Otomatis):
 Sistem counter pada Percobaan 2A bekerja secara otomatis berbasis waktu. Mekanismenya:
@@ -381,7 +382,6 @@ Sistem counter pada Percobaan 2A bekerja secara otomatis berbasis waktu. Mekanis
 3. Fungsi `displayHex(i)` dipanggil dengan nilai `i` saat itu, menampilkan karakter heksadesimal ke-i.
 4. `delay(1000)` menahan eksekusi selama 1 detik sebelum nilai `i` berikutnya ditampilkan.
 5. Setelah `i = 15` (karakter F), loop `for` selesai, fungsi `loop()` selesai, lalu dipanggil ulang dari awal — `i` kembali ke 0 secara otomatis.
-
 Counter Percobaan 2B (Manual via Push Button):
 Sistem counter pada Percobaan 2B bekerja secara event-driven (berbasis kejadian penekanan tombol). Mekanismenya menggunakan teknik edge detection:
 1. Variabel `currentDigit` menyimpan nilai counter yang persisten (tidak di-reset tiap siklus loop).
