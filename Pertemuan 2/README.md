@@ -347,6 +347,7 @@ Pin 3    ──────── Kaki 1
 GND      ──────── Kaki 2
 (INPUT_PULLUP aktif, tidak perlu resistor eksternal)
 ```
+---
 **Ringkasan logika dua tombol:**
 | Aksi | Kondisi Edge Detection | Operasi | Wrap-around |
 |------|------------------------|---------|-------------|
@@ -361,7 +362,7 @@ Percobaan 2A – Seven Segment Counter:
 Program `modul2_output.ino` berhasil menampilkan karakter heksadesimal 0 hingga F secara berurutan pada Seven Segment Display dengan interval 1 detik per karakter. Program menggunakan array `hexPatterns[16][7]` sebagai lookup table pola bit dan fungsi `displayHex()` yang mengonversi pola bit menjadi sinyal LOW/HIGH ke setiap pin segmen sesuai karakteristik Common Anode. Setelah karakter F ditampilkan, counter secara otomatis kembali ke 0 dan siklus berulang tanpa henti. Tidak ada segmen yang mati atau tampil tidak sesuai urutan, dan program berjalan stabil tanpa error.
 Percobaan 1B – Kontrol Counter dengan Push Button:
 Program `modul2_input.ino` berhasil mengintegrasikan push button sebagai input digital untuk mengendalikan counter secara manual. Nilai counter bertambah satu setiap kali tombol ditekan, dan di-reset ke 0 setelah melewati nilai 15 (F). Implementasi `INPUT_PULLUP` pada pin 2 berhasil mencegah kondisi floating tanpa memerlukan resistor eksternal. Teknik edge detection (falling edge) dengan membandingkan `lastUpState` dan `upState` berhasil memastikan setiap penekanan tombol hanya menghasilkan satu increment, sehingga tidak terjadi penghitungan ganda. Tampilan Seven Segment diperbarui secara real-time setiap kali tombol ditekan.
----
+
 #### 2. Bagaimana prinsip kerja dari Seven Segment Display dalam menampilkan angka dan karakter?
 Seven Segment Display adalah komponen yang terdiri dari 8 buah LED yang disusun membentuk pola tertentu: tujuh segmen berbentuk garis (a, b, c, d, e, f, g) yang membentuk angka, ditambah satu segmen titik (dp). Dengan mengaktifkan kombinasi segmen yang tepat, display dapat membentuk tampilan angka 0–9 dan karakter huruf A–F.
 ```
