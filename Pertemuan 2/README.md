@@ -7,7 +7,7 @@
 ### 2.5.4 Pertanyaan Praktikum 2A
 #### 1. Gambarkan rangkaian schematic yang digunakan pada percobaan!
 
-![Rangkaian Arduino](Dokumentasi Percobaan1B/rangkaian1B.png)
+![Rangkaian Arduino](Dokumentasi%20Percobaan1B/rangkaian1B.png)
 
 ---
 #### 2. Apa yang terjadi jika nilai `num` lebih dari 15?
