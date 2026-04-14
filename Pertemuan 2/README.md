@@ -1,7 +1,7 @@
 # Modul 2 – Pemrograman GPIO
 **Nama:** Ardina Jihan Mariska  
 **NIM:** H1H024018  
-**Shift Akhir:** B  
+**Shift Awal:** B  
 **Shift Akhir:** C  
 
 ## Percobaan 2A – Seven Segment Counter
