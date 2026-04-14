@@ -347,7 +347,6 @@ Arduino Uno     Push Button DOWN
 Pin 3    ──────── Kaki 1
 GND      ──────── Kaki 2
 (INPUT_PULLUP aktif, tidak perlu resistor eksternal)
-```
 
 ---
 **Ringkasan logika dua tombol:**
