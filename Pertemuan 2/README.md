@@ -1,6 +1,7 @@
 # Modul 2 – Pemrograman GPIO
 **Nama:** Ardina Jihan Mariska  
 **NIM:** H1H024018  
+**Shift Akhir:** B  
 **Shift Akhir:** C  
 
 ## Percobaan 2A – Seven Segment Counter
@@ -347,6 +348,7 @@ Pin 3    ──────── Kaki 1
 GND      ──────── Kaki 2
 (INPUT_PULLUP aktif, tidak perlu resistor eksternal)
 ```
+
 ---
 **Ringkasan logika dua tombol:**
 | Aksi | Kondisi Edge Detection | Operasi | Wrap-around |
@@ -354,6 +356,7 @@ GND      ──────── Kaki 2
 | Tekan UP | `lastUp==HIGH && up==LOW` | `currentDigit++` | >15 → reset ke 0 |
 | Tekan DOWN | `lastDown==HIGH && down==LOW` | `currentDigit--` | <0 → reset ke 15 |
 ---
+
 ```
 ## 2.7 Pertanyaan Praktikum
 #### 1. Uraikan hasil tugas pada praktikum yang telah dilakukan pada setiap percobaan!
