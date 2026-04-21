@@ -177,7 +177,7 @@ Kesimpulan: Untuk sistem yang membutuhkan LED blink sekaligus tetap menerima per
 ## 3.6 Percobaan 3B – Inter-Integrated Circuit (I2C)
 ### 3.6.4 Pertanyaan Praktikum 3B
 ### Rangkaian Percobaan 3B
-![alt text](Rangkaianpercobaan3B.png)
+![alt text](DOKUMENTASI/Rangkaianpercobaan3B.png)
 
 #### 1. Cara Kerja Komunikasi I2C antara Arduino dan LCD
 Cara kerja protokol I2C langkah per langkah:
