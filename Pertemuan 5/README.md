@@ -1,7 +1,7 @@
 # Modul 5 – Real-Time Operating System: Multitasking dan Komunikasi Task
 
-**Mata Kuliah** : Sistem Tertanam dan Mikrokontroler  
-**Nama**        : Dina  
+**Mata Kuliah** : Sistem Mikrokontroler  
+**Nama**        : ARDINA JIHAN MARISKA
 **NIM**         : H1H024018  
 **Shift Awal**  : C 
 **Shift Akhir** : C
