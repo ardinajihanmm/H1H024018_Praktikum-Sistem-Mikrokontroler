@@ -232,7 +232,7 @@ void display(void *pvParameters) {
 ---
 
 ### Pertanyaan Praktikum 5B
-![Rangkaian percobaan 5b:(Dokumentasi/percobaan5B.png)
+
 #### Pertanyaan 1: Apakah kedua task berjalan secara bersamaan atau bergantian? Jelaskan mekanismenya!
 Kedua task berjalan secara bergantian (concurrent), bukan secara paralel. Pada Arduino Uno yang single-core, hanya satu task yang aktif di CPU pada satu waktu.
 
